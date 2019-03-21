@@ -25,3 +25,29 @@ Este bloco pertence a primeira condição verdadeira encontrada.
 Então, a ordem das condições que você montar vão influenciar
 na execução do programa.
 """
+
+# Operadores lógicos
+"""
+AND -> E
+(condição) and (condição)
+    V       e      V
+As duas condições tem que ser True para o if/elif ser executado.
+
+OR -> OU
+(condição) or (condição)
+Apenas UMA das duas tem que ser True.
+O if/elif só não será executado se as duas condições forem Falsas.
+
+NOT -> NÃO
+not (condição)
+Altera o valor lógico atual. Se a condição for True vira False.
+Se for False vira True.
+"""
+
+x = 10
+y = 20
+
+if( x > 10 and x < 20 ):
+    print("Condição verdadeira!")
+else:
+    print("A condição foi falsa.")
