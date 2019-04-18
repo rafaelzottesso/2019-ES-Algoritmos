@@ -4,7 +4,7 @@ import os
 msg_commit = input("Mensagem do commit: ")
 
 # Se a mensagem for pequena demais, força o usuário a digitar uma msg maior
-while len(msg_commit) < 5:
+while len(msg_commit) <= 5:
     print("A mensagem deve ter pelo menos 5 caracteres.")
     msg_commit = input("Mensagem do commit: ")
 
