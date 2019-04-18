@@ -24,6 +24,7 @@ while( cont <= 1000 ):
     # Alteração/incremento no valor da variável de contrle
     cont = cont + 1
     # Fim do while
+    
 
 # Continuação do programa, independente do resultado do while
 print("Fora do while!")
