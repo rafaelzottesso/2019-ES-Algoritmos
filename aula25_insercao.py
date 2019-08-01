@@ -4,9 +4,9 @@ print("Vetor original:", vetor)
 print("Tamanho do vetor:", len(vetor))
 print(" ")
 
-# Contar as iterações/passos
+# Ocupar as posições do vetor
 for x in range(0, len(vetor)):
-    # Fazer as verificações um a um no vetor inteiro
+    # Fazer as verificações a partir da posição x+1 porque o x já está lá no for anterior
     for y in range(x+1, len(vetor)):
 
         print("Comparando {}(Pos: {}) com {}(Pos: {}).".format(vetor[x], x, vetor[y], y))
