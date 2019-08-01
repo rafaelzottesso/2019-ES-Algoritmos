@@ -24,3 +24,11 @@ for x in range(0, len(vetor)):
         input("Aperte ENTER para continuar...\n")
 
 print("Vetor ordenado:", vetor)
+
+
+"""
+# Links úteis #
+https://www.hackerearth.com/pt-br/practice/algorithms/sorting/insertion-sort/visualize/
+https://visualgo.net/bn/sorting
+https://www.advanced-ict.info/interactive/algorithms.html
+"""
