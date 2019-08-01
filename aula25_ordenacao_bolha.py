@@ -4,10 +4,12 @@ print("Vetor original:", vetor)
 print("Tamanho do vetor:", len(vetor))
 print(" ") 
 
+# Contar as iterações/passos
 for x in range(0, len(vetor)-1):
+    # Fazer as verificações um a um no vetor inteiro
     for y in range(0, len(vetor)-1):
 
-        print( "Comparando {}[{}] com {}[{}].".format(vetor[y], y, vetor[y+1], y+1) )
+        print( "Comparando {}(Pos: {}) com {}(Pos: {}).".format(vetor[y], y, vetor[y+1], y+1) )
 
         if(vetor[y] > vetor[y+1]):
             aux = vetor[y]
