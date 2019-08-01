@@ -4,10 +4,10 @@ print("Vetor original:", vetor)
 print("Tamanho do vetor:", len(vetor))
 print(" ")
 
-# Contar as iterações/passos
+# Ocupar a posição do vetor que procura-se o menor para ele
 for x in range(0, len(vetor)-1):
     menor = x
-    # Fazer as verificações no vetor
+    # Fazer as verificações no vetor do x em diante
     for y in range(x+1, len(vetor)):
 
         print("Comparando {}(Pos: {}) com {}(Pos: {}).".format(vetor[x], x, vetor[y], y))
