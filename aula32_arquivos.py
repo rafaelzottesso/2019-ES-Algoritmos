@@ -58,13 +58,13 @@ Ayslan Trevizan Possebom|ayslan@ifpr.edu.br|52.000,00
 Usamos a função split() de uma String para "quebrar" uma String
 A String será transformada em um vetor.
 Fornecemos o caractere usado para quebrar a String.
-Exemplo:
+A instrução abaixo:
+dados = stringqualquer.split("|")
 
-dados = conteudo[linha].split("|")
-
-dados[0] = "Ayslan Trevizan Possebom"
-dados[1] = "ayslan@ifpr.edu.br"
-dados[2] = "52.000,00"
+Faz isso daqui automaticamente:
+dados[0] = "Fulano de Tal"
+dados[1] = "fulano@ifpr.edu.br"
+dados[2] = "5000.90"
 """
 
 
