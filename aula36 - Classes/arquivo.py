@@ -17,6 +17,9 @@ alu1.status = True
 alu1.dataNasc.dia = 6
 alu1.dataNasc.mes = 6
 alu1.dataNasc.ano = 2000
+alu1.dataNasc.horario.horas = 19
+alu1.dataNasc.horario.minutos = 23
+alu1.dataNasc.horario.segundos = 58
 
 alu2 = Aluno()
 alu2.nome = "Kelvin"
